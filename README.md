@@ -1,19 +1,19 @@
 # House Price Predicction
 This project predicts house prices in Bangalore using a machine learning model. It features a graphical user interface (GUI) built with Tkinter to allow users to input details and get an estimated house price.
 
-Features
+1. Features
 User Interface: Input fields for location, square footage, number of rooms, and number of bathrooms.
 Prediction Model: Uses a pre-trained model to predict house prices.
 Error Handling: Validates user inputs and provides feedback.
-Requirements
+
+2. Requirements
 Python 3.x
 numpy
 pickle
 tkinter
 
 
-Installation-
-
+3. Installation-
 Clone the repository:
 git clone https://github.com/aditichauhann/House-Price-Prediction.git
 
@@ -24,8 +24,7 @@ Install the required packages:
 pip install numpy tkinter
 
 
-Usage-
-
+4. Usage-
 Run the main application:
 python main.py
 
@@ -38,8 +37,7 @@ Enter Number of Bathrooms
 Click "Predict Price" to get the estimated house price.
 
 
-Files
-
+5. Files
 main.py: Main application file with the Tkinter GUI.
 columns_list.py: Contains the list of features used by the model.
 banglore_home_prices_model.pickle: Pre-trained machine learning model.
@@ -47,6 +45,5 @@ area.json: JSON file with location data.
 
 
 Contributing
-
 Feel free to fork this repository and contribute by submitting pull requests.
 
